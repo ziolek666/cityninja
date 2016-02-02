@@ -10,12 +10,6 @@ Meteor.startup(function() {
       }
     }, false);
 
-    document.addEventListener('deviceready', function() {
-      if (device.platform === 'iOS' && parseFloat(device.version) >= 7.0) {
-        $(document.body).css('margin-top', '20px');
-        $('.nj-latest__header-row').css('margin-top', '20px');
-      }
-    }, false);
   }
 });
 
