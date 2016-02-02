@@ -9,7 +9,6 @@ Meteor.startup(function() {
         window.history.back();
       }
     }, false);
-
   }
 });
 
